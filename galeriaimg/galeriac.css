@@ -1,0 +1,44 @@
+.imagenes{
+
+    border: 5px solid rgb(73, 141, 57);
+    width:200px ; height:200px; 
+    padding:10px;
+    display: inline-block;
+    margin: auto;
+}
+div{
+    background-color: rgb(163, 94, 142);     
+    margin: 5px;  
+    background-image: linear-gradient(rgb(216, 185, 47), rgb(163, 97, 160));
+}
+h1{
+    font-style: oblique;
+    font-size: 55px;
+    color: brown;
+    text-shadow: 10px 5px 10px darkblue;
+    box-shadow: 10px 12px 10px rgb(4, 131, 170);
+    background-color: rgb(229, 240, 128);
+    text-align:center;
+    font-family: 'Caramel', cursive;
+}    
+.fila{
+    justify-content: center;
+    display:flex;
+    box-shadow: lawngreen;
+
+} 
+.tarjeta{
+    border: solid 5px rgb(66, 116, 23);
+    width: 230px;
+    opacity: 0.8;
+}
+
+.tarjeta:hover{
+                opacity:1;
+}
+
+.parrafo{
+    padding:1px;
+    width:90%;
+    
+}   
