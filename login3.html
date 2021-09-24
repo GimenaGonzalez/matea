@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="login3.css">
+</head>
+<body>
+    <FORM action = "formulario de encuesta matea" method = post>
+        <h1> formulario de encueta matea </h1>
+        <!--campo de texto para nombre del aluno-->
+        Escribe el Nombre del alumno:<INPUT type = text name = nombre  >
+     <!--campo te texto para email-->
+     Escribe email:<INPUT type = text email = email  >
+      <!--campo de texto para contraceña-->
+        contraceña: <INPUT type = password name = clave >
+            <label for="start">Start date:</label>
+    <!--campo de texto para fehca -->
+      <input type="date" id="fecha" name="Nacimiento"
+         value="2018-07-22"
+           min="2018-01-01" max="2018-12-31"> <br><br>
+        <!--campo de texto donde pregunta opiñon del tema-->
+        1. ¿Que opinas sobre matea? :
+        <pre>
+        <TEXTAREA name = comentario type="TEXTAREA" comentario ></TEXTAREA> <br><br>
+        <!--campo de texto para elejir opcion-->
+        2.- ¿Crees que la programacion atrae grandes oportunidades?
+        <INPUT type = checkbox name = archivo value = "Verdadero" > Si mucha
+        <INPUT type = checkbox name = archivo value ="Verdadero" > No nada
+        <INPUT type = checkbox name = archivo value ="Verdadero" > Muy poco
+        <pre>
+       3. ¿Con que frecuencia praticas programacion? > 
+        <INPUT type = checkbox name = frecuencia value = "Verdadero" > 1 vez por semna
+        <INPUT type = checkbox name = frecuencia value ="Verdadero" > nunca
+        <INPUT type = checkbox name = fecuencia value ="Verdadero" > todos los dias
+        <!--campo de texto para puntuacion de encuesta-->
+        <INPUT type = hidden name = lugar value = "sobre la encuesta" >
+        4. del 1 al 3 que te parecio esta encuesta... :
+        <SELECT name = puntuacion >
+        <OPTION>1
+        <OPTION>2
+        <OPTION>3 
+    <!--campo de texto para enviar resuesta-->
+    <INPUT type = hidden name = lugar value = "enviar respuesta" >
+        <button value="boton"> enviar resuesta </button> <br> <br>
+</body>
+</html>
